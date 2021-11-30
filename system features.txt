@@ -1,0 +1,12 @@
+1-authentication system
+2-different views and for admin and users
+3-add new companies
+4-edit companies info
+5-delete companies
+6-add employees to certain company
+7-edit employees
+8-delete employees
+9-search for companies
+10-search for employees
+11-view both companies and employees
+12-view employees for specific company

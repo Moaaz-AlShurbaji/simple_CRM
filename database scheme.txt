@@ -1,0 +1,24 @@
+we have 3 tables in this project:
+users table - companies table - employees table
+
+users table:
+id(bigint auto increment) primary key
+name(varchar)
+email(varchar)
+password(varchar)
+is_admin(boolean)
+created_at(date)
+updated_at(date)
+-----------------------------------
+companies table:
+id(bigint auto increment) primary key
+name(varchar)
+email(varchar)
+website(varchar)
+-----------------------------------
+employees table:
+id(bigint auto increment) primary key
+first_name(varchar)
+last_name(varchar)
+company_id(bigint) foreign key to (id) in companies table
+email(varchar)
